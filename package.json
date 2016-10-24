@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/haskellcamargo/drag-queen/issues"
   },
-  "homepage": "https://github.com/haskellcamargo/drag-queen#readme"
+  "homepage": "https://github.com/haskellcamargo/drag-queen#readme",
+  "dependencies": {
+    "ramda": "^0.22.1"
+  },
+  "devDependencies": {
+    "livescript": "^1.5.0"
+  }
 }
