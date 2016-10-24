@@ -4,6 +4,7 @@
   "description": "The most complete package for drag queens of npm",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,8 @@
     "ramda": "^0.22.1"
   },
   "devDependencies": {
-    "livescript": "^1.5.0"
+    "livescript": "^1.5.0",
+    "livescript-loader": "^0.1.6",
+    "webpack": "^1.13.2"
   }
 }
