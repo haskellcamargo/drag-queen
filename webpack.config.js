@@ -12,9 +12,13 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /.ls$/,
+                test: /\.ls$/,
                 exclude: /node_modules/,
                 loaders: ['livescript-loader']
+            },
+            {
+                test: /\.json$/,
+                loader: 'json'
             }
         ]
     },

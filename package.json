@@ -2,7 +2,7 @@
   "name": "drag-queen",
   "version": "0.1.0",
   "description": "The most complete package for drag queens of npm",
-  "main": "index.js",
+  "main": "./dist/drag-queen.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/haskellcamargo/drag-queen#readme",
   "dependencies": {
+    "json-loader": "^0.5.4",
     "ramda": "^0.22.1"
   },
   "devDependencies": {
