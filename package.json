@@ -1,0 +1,25 @@
+{
+  "name": "drag-queen",
+  "version": "0.1.0",
+  "description": "The most complete package for drag queens of npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haskellcamargo/drag-queen.git"
+  },
+  "keywords": [
+    "drag",
+    "queen",
+    "name",
+    "generator"
+  ],
+  "author": "Marcelo Camargo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haskellcamargo/drag-queen/issues"
+  },
+  "homepage": "https://github.com/haskellcamargo/drag-queen#readme"
+}
